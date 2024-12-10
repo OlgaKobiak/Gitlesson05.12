@@ -2,23 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="../style.css" type="text/css" rel="stylesheet">
     <title>Contact Page</title>
 </head>
-<body>
-    <a href="../index.html">MainPage</a>
-    <a href="./contacts.html">Contacts</a>
-    <a href="./gallery.html">Gallery</a>
+<body id="contact-page">
 
-    <header>
-        <h1>Contact Me</h1>
+    <header id="header">
+        <a href="../index.html" class="nav-link">MainPage</a>
+        <a href="./contacts.html" class="nav-link">Contacts</a>
+        <a href="./gallery.html" class="nav-link">Gallery</a>
     </header>
-    
-    <section>
+
+    <h1 id="contact-title">Contact Me</h1>
+
+    <section id="contact-section">
         <h2>Get in Touch</h2>
         <p>If you want to get in touch, feel free to fill out the contact form or reach out through other means.</p>
 
         <!-- Contact Form -->
-        <form action="submit_form.php" method="POST">
+        <form action="submit_form.php" method="POST" id="contact-form">
             <label for="name">Your Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
             
@@ -32,7 +34,7 @@
         </form>
     </section>
 
-    <section>
+    <section id="other-contact-methods">
         <h2>Other Ways to Contact Me</h2>
         <ul>
             <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
@@ -47,9 +49,9 @@
         </ul>
     </section>
 
+    <footer id="footer">
+        <p><a href="pages/contacts.html">Contacts</a> | <a href="pages/gallery.html">Gallery</a></p>
+    </footer>
+
 </body>
 </html>
-
-
-
-

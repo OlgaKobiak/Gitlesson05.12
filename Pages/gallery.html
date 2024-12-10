@@ -2,17 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Gallery</title>    
-    <header>
-        <a href="../index.html">MainPage</a>
-        <a href="./contacts.html">Contacts</a>
-        <a href="./gallery.html">Gallery</a>
-    </header>
+    <link href="../style.css" type="text/css" rel="stylesheet">
+    <title>Gallery</title>
 </head>
-<body>
-      
-    <img src="../images/myl1.jpg" jpwidth="400" height="200">
-    <img src="../images/myl2.jpg" jpwidth="400" height="200">
-    <img src="../images/mylene.jpg" width="400" height="200">
+<body id="gallery-page">
+
+    <header id="header">
+        <a href="../index.html" class="nav-link">MainPage</a>
+        <a href="contacts.html" class="nav-link">Contacts</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+    </header>
+
+    <h1 id="gallery-title">Gallery</h1>
+
+    <section id="gallery-section">
+        <h2>Concert Photos</h2>
+        <div class="gallery">
+            <img src="../images/myl1.jpg" alt="Concert 1" class="gallery-img">
+            <img src="../images/myl2.jpg" alt="Concert 2" class="gallery-img">
+            <img src="../images/myl3.jpg" alt="Concert 3" class="gallery-img">
+        </div>
+    </section>
+
+    <footer id="footer">
+        <p><a href="contacts.html">Contacts</a> | <a href="gallery.html">Gallery</a></p>
+    </footer>
+
 </body>
 </html>
+

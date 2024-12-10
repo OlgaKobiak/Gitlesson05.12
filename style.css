@@ -1,0 +1,176 @@
+/* Загальний стиль для всіх сторінок */
+body {
+    font-family: 'Lora', serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e0f7fa; /* Бірюзовий фон для всіх сторінок */
+}
+
+/* Стиль для заголовків */
+h1, h2 {
+    font-family: 'Lora', serif;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #1abc9c;
+}
+
+/* Стилі для сторінки Контактів */
+#contact-page, #gallery-page, #index-page {
+    background-color: #e0f7fa; /* Бірюзовий фон для сторінок */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+form label, form input, form textarea {
+    font-size: 16px;
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #16a085;
+}
+
+/* Стилі для сторінки Галереї */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* Стилі для навігації */
+header {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+header .nav-link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header .nav-link:hover {
+    color: #1abc9c;
+}
+
+/* Общие стили для всех страниц */
+body {
+    font-family: 'Lora', serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e0f7fa; /* Голубой фон для всех страниц */
+}
+
+/* Стиль для заголовков */
+h1, h2 {
+    font-family: 'Lora', serif;
+    color: #2c3e50;
+}
+
+/* Галерея */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-img {
+    width: 100%; /* Изображения растягиваются по ширине контейнера */
+    height: 300px; /* Фиксированная высота изображений */
+    object-fit: cover; /* Сохраняет пропорции изображения и заполняет контейнер */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* Стилы для навигации */
+header {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+header .nav-link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header .nav-link:hover {
+    color: #1abc9c;
+}
+
+/* Стиль для футера */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #1abc9c;
+}
